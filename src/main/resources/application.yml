@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/jdbc?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    initialization-mode: always #是否自动建表，默认找schema.sql和schema-all.sql
+#    schema: #指定文件
+#        - classpath:department.sql
